@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { FaSearch } from 'react-icons/fa';
-import TooltipButton from '../../Components/Tooltipbutton';
+import TooltipButton from '../TooltipButton'
 import { BsMoon, BsSun } from 'react-icons/bs';
 import { ThemeContext } from '../../context/ThemeContext';
 
