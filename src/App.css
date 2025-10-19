@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+
+
+@theme {
+  /* Container  */
+  --spacing-mContainer: 1320px;
+
+  /* Color  */
+  --color-primary: #E58411; 
+  --color-secondary: #1E1E1E; 
+  --color-Bg2C: #FFFFFF; 
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--color-Bg2C);
+  color: var(--color-secondary);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.dark {
+  @apply bg-gray-900 text-white;
+}
